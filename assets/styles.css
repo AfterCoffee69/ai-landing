@@ -8,7 +8,7 @@ body {
 }
 
 main {
-    height: 3000px;
+    height: 3500px;
     background-color: #020A18;
 }
 
@@ -354,3 +354,79 @@ h1, h2, h3, h4, h5, h6 {
     position: absolute;
 }
 
+footer {
+    background-color: #131b28;
+}
+
+.footer__inner {
+    margin-left: 420px;
+    width: 100%;
+    max-width: 1250px;
+    height: 508px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__left-title {
+    font-size: 16px;
+    font-weight: 400;
+    color: #3A68B8;
+    margin-top: 8px;
+}
+
+.footer__left-subtitle {
+    font-size: 14px;
+    font-weight: 300;
+    color: #c7c7c7;
+    margin-top: 8px;
+    margin-bottom: 37px;
+}
+
+.footer__left-contacts {
+    font-size: 14px;
+    font-weight: 450;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer__inner-contacts {
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+
+.footer__main-title {
+    font-size: 16px;
+    font-weight: 450;
+    color: #fff;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+.footer__main-subtitle {
+    font-size: 14px;
+    font-weight: 450;
+    color: #c7c7c7;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+.footer__right-title {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 450;
+    color: #fff;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+.footer__right-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 175px;
+}
