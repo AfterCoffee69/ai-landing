@@ -161,7 +161,7 @@ h1, h2, h3, h4, h5, h6 {
 .intro__btn {
     width: 171px;
     height: 57px;
-    font-size: 20px;
+    font-size: 18px;
     padding: 15px 30px;
     margin-right: 20px;
     font-family: 'Roboto', sans-serif;
@@ -181,7 +181,7 @@ h1, h2, h3, h4, h5, h6 {
 .intro__btn-play {
     width: 217px;
     height: 57px;
-    font-size: 20px;
+    font-size: 19px;
     padding: 15px 30px;
     margin-right: 20px;
     font-family: 'Roboto', sans-serif;
