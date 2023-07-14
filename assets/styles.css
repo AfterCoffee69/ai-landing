@@ -529,10 +529,12 @@ footer {
     
     .intro__btn {
         margin-right: 40px;
+        font-size: 18px;
     }
     
     .intro__btn-play {
         margin-right: 0px;
+        font-size: 18px;
     }
     
     .intro__img {
@@ -556,7 +558,7 @@ footer {
     
     .about {
         width: 100%;
-        height: 600px;
+        height: 730px;
     }
     
     .about__inner {
@@ -567,13 +569,14 @@ footer {
     }
     
     .about__inner img {
+        margin-left: 10px;
         width: 360px;
         height: 335px;
     }
     
     .about__title {
         font-size: 30px;
-        text-align: end;
+        text-align: center;
     }
     
     .about__subtitle {
@@ -592,6 +595,7 @@ footer {
 
     .about__text {
         margin-top: 0px;
+        margin-left: 10px;
     }
     
     .about__cards {
@@ -632,12 +636,12 @@ footer {
     }
     
     .last__title {
-        font-size: 30px;
+        font-size: 25px;
     }
     
     .last__subtitle {
         width: 550px;
-        font-size: 14px;
+        font-size: 12px;
     }
     
     .last__text {
