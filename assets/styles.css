@@ -944,8 +944,7 @@ footer {
     }
 
     .footer__right-icons svg {
-        margin-right: 30px;
-        transform: scale(80%);
+        display: none;
     }
 
     .footer__right-contacts {
