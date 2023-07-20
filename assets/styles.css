@@ -66,6 +66,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header__inner {
+    margin-left: -15px;
+    margin-right: 10px;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -79,6 +81,7 @@ h1, h2, h3, h4, h5, h6 {
 .header__title {
     color: #4563a9;
     padding: 15px;
+    padding-left: 0px;
     font-weight: bold;
     font-size: 22.5px;
     letter-spacing: 0.7px;
@@ -92,7 +95,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav__link {
     text-decoration: none;
     color: #ffffff;
-    padding-right: 40px;
+    padding-right: 35px;
 }
 
 .nav__link:hover {
@@ -121,20 +124,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .intro__inner {
-    margin-left: 200px;
+    margin-left: 186px;
     padding-top: 110px;
     width: 600px;
     text-align: start;
 }
 
 .intro__title {
-    width: 604px;
+    width: 676px;
     font-size: 55px;
     color: #fff;
-    font-weight: 800;
+    font-weight: 700;
     line-height: 130%;
     margin-bottom: 40px;
-    letter-spacing: 6px;
+    letter-spacing: 2px;
 }
 
 .intro__suptitle {
@@ -153,7 +156,6 @@ h1, h2, h3, h4, h5, h6 {
     font-style: normal;
     font-weight: 500;
     line-height: 160%;
-    letter-spacing: 1.7px;
 }
 
 .intro__buttons {
@@ -227,7 +229,7 @@ h1, h2, h3, h4, h5, h6 {
 .about__inner {
     display: flex;
     justify-content: space-between;
-    width: 1342px;
+    width: 1349px;
     margin-left: 256px;
 }
 
@@ -241,10 +243,10 @@ h1, h2, h3, h4, h5, h6 {
 .about__title {
     font-size: 40px;
     color: #ffffff;
-    font-weight: 800;
+    font-weight: 700;
     line-height: 130%;
     margin-bottom: 30px;
-    letter-spacing: 4px;
+    letter-spacing: 1px;
 }
 
 .about__subtitle {
@@ -255,7 +257,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
     line-height: 160%;
     margin-bottom: 45px;
-    letter-spacing: 1.7px;
+    letter-spacing: 1px;
 }
 
 .about__btn {
@@ -309,7 +311,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 389px;
     background-color: #131b28;
     text-align: center;
-    padding: 60px 30px 30px 30px;
+    padding: 65px 30px 30px 30px;
     border-radius: 10px;
     transition: .2s;
 }
@@ -323,7 +325,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .card__title {
-    font-size: 25px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: 125%;
@@ -370,9 +372,9 @@ h1, h2, h3, h4, h5, h6 {
 .last__title {
     font-size: 40px;
     color: #ffffff;
-    font-weight: 800;
+    font-weight: 700;
     line-height: 130%;
-    letter-spacing: 4px;
+    letter-spacing: 1px;
     margin-bottom: 38px;
 }
 
@@ -384,7 +386,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 500;
     line-height: 160%;
     margin-bottom: 20px;
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
 }
 
 .last__text {
@@ -527,9 +529,16 @@ footer {
         justify-content: center;
         align-items: center;
     }
+
+    .intro__title {
+        font-weight: 800;
+        width: 620px;
+    }
     
     .intro__subtitle {
         width: 100%;
+        font-size: 17px;
+        font-weight: 600;
     }
     
     .intro__buttons {
@@ -581,24 +590,30 @@ footer {
     }
     
     .about__inner img {
+        margin-top: 0px;
         margin-left: 10px;
         width: 360px;
         height: 335px;
     }
     
     .about__title {
+        font-weight: 800;
         font-size: 30px;
         text-align: center;
+        letter-spacing: 1px;
+        margin-left: -20px;
+        margin-bottom: 35px;
     }
     
     .about__subtitle {
         font-size: 14px;
         width: auto;
         text-align: center;
+        margin-bottom: 90px;
     }
     
     .about__btn {
-        margin-left: 100px;
+        margin-left: 110px;
         font-size: 20px;
         margin-top: 15px;
         width: 210px;
@@ -606,8 +621,8 @@ footer {
     }
 
     .about__text {
-        margin-top: 0px;
-        margin-left: 10px;
+        margin-top: -5px;
+        margin-left: 0px;
     }
     
     .about__cards {
@@ -630,7 +645,7 @@ footer {
     }
     
     .last {
-        margin-top: -44px;
+        margin-top: -38px;
         width: 100%;
         text-align: center;
         padding: 161px 0 0px 30px;
@@ -650,11 +665,13 @@ footer {
     
     .last__title {
         font-size: 25px;
+        letter-spacing: 1.5px;
     }
     
     .last__subtitle {
         width: 550px;
         font-size: 12px;
+        letter-spacing: 1.0px;
     }
     
     .last__text {
@@ -664,6 +681,7 @@ footer {
     }
     
     .footer__inner {
+        margin-top: 3px;
         margin-left: 30px;
         height: 508px;
         display: flex;
@@ -677,14 +695,17 @@ footer {
     
     .footer__left-title {
         font-size: 20px;
+
     }
     
     .footer__left-subtitle {
         font-size: 14px;
+        letter-spacing: 0.6px;
     }
     
     .footer__left-contacts {
         font-size: 16px;
+        letter-spacing: 0.8px;
     }
     
     .footer__main {
@@ -701,6 +722,14 @@ footer {
 
     .header__title {
         display: none;
+    }
+
+    .header {
+        padding-top: 0px;
+    }
+
+    .header__img {
+        margin-left: 35px;
     }
 
     .header__btn {
@@ -811,6 +840,8 @@ footer {
     .about__title {
         font-size: 20px;
         text-align: center;
+        margin-bottom: 27px;
+        margin-left: 10px;
     }
     
     .about__subtitle {
@@ -825,13 +856,12 @@ footer {
         width: 100px;
         height: 40px;
         margin-right: 40px;
-        font-size: 10px;
-        line-height: 15px;
+        font-size: 8px;
     }
 
     .about__text {
         margin-top: 0px;
-        margin-left: 10px;
+        margin-left: 0px;
     }
     
     .about__cards {
@@ -866,6 +896,7 @@ footer {
         width: 100%;
         text-align: center;
         padding: 100px 0 0px 20px;
+        margin-top: 5px;
     }
     
     .last__inner {
@@ -889,6 +920,8 @@ footer {
         margin-right: 0px;
         width: 120px;
         font-size: 16px;
+        letter-spacing: 3px;
+        margin-bottom: 43px;
     }
     
     .last__subtitle {
@@ -946,6 +979,7 @@ footer {
     .footer__right-title {
         margin-top: 0px;
         font-size: 14px;
+        font-weight: 600;
     }
 
     .footer__right-subtitle {
