@@ -5,4 +5,4 @@ html/css landing
 https://aftercoffee69.github.io/ai-landing/
 
 ## Figma template
-https://www.figma.com/file/tWjxiEJLfYrVZMV5FtoJlg/Artificial-Intelligence-%2B?type=design&mode=design&t=XyiyU857SWmnvnEL-0
+https://www.figma.com/file/TCGUR2X9BzIXIOfRRPR3iX/Artificial-Intelligence?type=design&node-id=0-1&mode=design&t=EISr4Olh3u61WZd1-0
