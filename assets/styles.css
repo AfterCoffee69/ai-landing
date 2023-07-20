@@ -50,6 +50,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #3A68B8;
     border: 0;
     border-radius: 5px;
+    letter-spacing: 2px;
 }
 
 .header__btn:hover {
@@ -85,7 +86,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav {
     padding: 18px;
-    margin-right: 125px;
+    margin-right: 130px;
 }
 
 .nav__link {
@@ -133,6 +134,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 800;
     line-height: 130%;
     margin-bottom: 40px;
+    letter-spacing: 6px;
 }
 
 .intro__suptitle {
@@ -141,16 +143,17 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 18px;
     color: #3A68B8;
     line-height: 160%;
-    font-weight: 400;
+    font-weight: 600;
+    letter-spacing: 2px;
 }
 
 .intro__subtitle {
     color: #c7c7c7;
-    width: 550px;
     font-size: 18px;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 500;
     line-height: 160%;
+    letter-spacing: 1.7px;
 }
 
 .intro__buttons {
@@ -231,6 +234,8 @@ h1, h2, h3, h4, h5, h6 {
 .about__inner img {
     width: 725px;
     height: 669px;
+    margin-top: -25px;
+    margin-left: -20px;
 }
 
 .about__title {
@@ -239,6 +244,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 800;
     line-height: 130%;
     margin-bottom: 30px;
+    letter-spacing: 4px;
 }
 
 .about__subtitle {
@@ -249,6 +255,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
     line-height: 160%;
     margin-bottom: 45px;
+    letter-spacing: 1.7px;
 }
 
 .about__btn {
@@ -262,6 +269,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #3A68B8;
     border: 0;
     border-radius: 5px;
+    letter-spacing: 2px;
 }
 
 .about__btn:hover {
@@ -340,7 +348,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
 
     text-align: center;
-    padding: 161px 0 170px 0;
+    padding: 160px 0 170px 0;
 
     background-color: #020A18;
 }
@@ -364,8 +372,8 @@ h1, h2, h3, h4, h5, h6 {
     color: #ffffff;
     font-weight: 800;
     line-height: 130%;
-    letter-spacing: 2px;
-    margin-bottom: 40px;
+    letter-spacing: 4px;
+    margin-bottom: 38px;
 }
 
 .last__subtitle {
@@ -376,6 +384,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 500;
     line-height: 160%;
     margin-bottom: 20px;
+    letter-spacing: 1.5px;
 }
 
 .last__text {
@@ -393,12 +402,12 @@ footer {
 .footer__inner {
     margin-left: 422px;
     height: 508px;
-
+    margin-top: 7px;
     display: flex;
 }
 
 .footer__left {
-    margin-right: 12px;
+    margin-right: 36px;
     margin-top: 70px;
 }
 
@@ -406,6 +415,7 @@ footer {
     font-size: 16px;
     font-weight: 600;
     color: #3A68B8;
+    letter-spacing: 0.5px;
 }
 
 .footer__left-subtitle {
@@ -415,6 +425,7 @@ footer {
     margin-top: 8px;
     margin-bottom: 35px;
     line-height: 18px;
+    letter-spacing: 0.1px;
 }
 
 .footer__left-contacts {
@@ -422,6 +433,7 @@ footer {
     font-weight: 450;
     color: #fff;
     margin-bottom: 10px;
+    letter-spacing: 0.1px;
 }
 
 .footer__left-contacts {
@@ -618,6 +630,7 @@ footer {
     }
     
     .last {
+        margin-top: -44px;
         width: 100%;
         text-align: center;
         padding: 161px 0 0px 30px;
