@@ -59,6 +59,12 @@ h1, h2, h3, h4, h5, h6 {
     transition: 0.2s;
 }
 
+.header__burger {
+    width: 56px;
+    height: 40px;
+    display: none;
+}
+
 .header__img {
     margin-left: 20px;
     width: 44.04px;
@@ -229,7 +235,7 @@ h1, h2, h3, h4, h5, h6 {
 .about__inner {
     display: flex;
     justify-content: space-between;
-    width: 1349px;
+    width: 1340px;
     margin-left: 256px;
 }
 
@@ -258,6 +264,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 160%;
     margin-bottom: 45px;
     letter-spacing: 1px;
+    text-align: start;
 }
 
 .about__btn {
@@ -505,7 +512,21 @@ footer {
 @media (max-width: 768px)  {
  
     .header__btn {
-        font-size: 20px;
+        font-size: 16px;
+    }
+
+    .header__burger {
+        margin-top: 8px;
+        display: block;
+        margin-left: -155px;
+    }
+
+    .header__logo {
+        margin-left: 18px;
+    }
+
+    .header__img {
+        margin-right: 10px;
     }
  
     .nav {
@@ -729,13 +750,21 @@ footer {
     }
 
     .header__img {
-        margin-left: 35px;
+        margin-left: 15px;
     }
 
     .header__btn {
         width: 92px;
         height: 42px;
         font-size: 12px;
+        margin-right: 90px;
+        margin-top: 10px;
+    }
+
+    .header__burger {
+        width: 46px;
+        height: 30px;
+        margin-right: -10px;
     }
  
     .nav {
@@ -766,6 +795,7 @@ footer {
 
     .intro__title {
         width: 320px;
+        letter-spacing: 1px;
         font-size: 20px;
     }
     
