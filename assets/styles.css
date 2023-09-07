@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .container {
     width: 100%;
-    max-width: 1185px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 
@@ -51,12 +51,17 @@ h1, h2, h3, h4, h5, h6 {
     border: 0;
     border-radius: 5px;
     letter-spacing: 2px;
+    cursor: pointer;
 }
 
 .header__btn:hover {
     background-color: white;
     color: black;
     transition: 0.2s;
+}
+
+.header__btn:active {
+    background-color: #dc8000;
 }
 
 .header__burger {
@@ -182,9 +187,12 @@ h1, h2, h3, h4, h5, h6 {
     border: 0;
     border-radius: 5px;
     letter-spacing: 1.5px;
+    cursor: pointer;
 }
 
 .intro__btn:hover {
+    background-color: #fff;
+    color: black;
     transform: scale(105%);
     transition: .1s;
 }
@@ -202,16 +210,57 @@ h1, h2, h3, h4, h5, h6 {
     border: 0;
     border-radius: 5px;
     letter-spacing: 1.5px;
+    cursor: pointer;
 }
 
 .intro__btn-play:hover {
     transform: scale(105%);
     transition: .1s;
+    background-color: #fff;
+    color: black;
 }
 
 .intro__img {
     margin-left: 116px;
 }
+
+.lang-btn {
+    font-size: 14px;
+    margin-top: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    width: 72px;
+    height: 52px;
+    background-color: #dc8000;
+    border: 0;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.lang-btn:hover {
+    transition: .2s;
+    color: black;
+}
+
+.mode-btn {
+    font-size: 14px;
+    margin-top: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    height: 52px;
+    background-color: #000000;
+    border: 0;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    padding: 0 15px;
+    border: 1px solid  #fff;
+}
+
+
 
 .intro__logos {
     margin-top: 87px;
@@ -279,6 +328,7 @@ h1, h2, h3, h4, h5, h6 {
     border: 0;
     border-radius: 5px;
     letter-spacing: 2px;
+    cursor: pointer;
 }
 
 .about__btn:hover {
